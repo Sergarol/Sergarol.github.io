@@ -1,0 +1,127 @@
+body{
+	text-align: center;
+	margin: 0;
+	background-color: #23272a;
+	color: #fff;
+	font-family: 'Poppins';
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+hr{
+	margin: 0;
+	height: 1vh;
+	background-color: #7289da;
+	border: none;
+}
+
+.barraNav{
+	padding: .75em 10em;
+	display: flex;
+	justify-content: space-between;
+	background-color: #2c2f33;
+	height: 6vh;
+}
+
+.navTexto{
+	width: 40%;
+	position: relative;
+}
+
+.navLogo{
+	width: 70px;
+}
+
+.lista{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.lista li{
+	font-family: 'Staatliches', cursive;
+	list-style : none;
+	font-size: 1.7em;
+}
+
+.lista li a{
+	color: #fff;
+}
+
+.banner{
+	height: 90vh;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+}
+
+.banner h1{
+	margin: 0;
+	font-size: 7em;
+	font-family: 'Staatliches', cursive;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	color: #7289da;
+	letter-spacing: .15em;
+	line-height: 90%;
+	text-shadow: 1px 1px #000, -1px -1px #000, -1px 1px #000, 1px -1px #000;
+}
+
+.banner img{
+	position: absolute;
+	opacity: 0.6;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-47%);
+	width: 125%;
+	height: 165%;
+}
+
+.section1{
+	width: 75%;
+	margin: 5vh auto;
+}
+
+.section1 div{
+	height: 28vh;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:  3vh;
+}
+
+.fotoSection{
+	width: 30%;
+}
+
+.fotoSection img{
+	border-radius: 2em;
+	border: 1px #99aab5 solid;
+	box-shadow: 0px 0px 8px rgba(255,255,255,0.5);
+}
+
+.textoSection{
+	width: 60%;
+	padding-top: 2vh;
+	font-size: 1.2vw;
+}
+
+.rotar{
+	flex-direction: row-reverse;
+}
+
+
