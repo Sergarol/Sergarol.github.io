@@ -1,1 +1,2 @@
-# Sergarol.github.io
+# Práctica DIW
+# Componentes para ordenador
