@@ -54,11 +54,16 @@ hr{
 .lista li{
 	font-family: 'Staatliches', cursive;
 	list-style : none;
-	font-size: 1.7em;
+	font-size: calc(1em + 1vw)
 }
 
 .lista li a{
 	color: #fff;
+}
+
+.lista li a:hover{
+	color: 	#7289da;
+	transition: all .5s ease-in-out;
 }
 
 .banner{
@@ -70,7 +75,7 @@ hr{
 
 .banner h1{
 	margin: 0;
-	font-size: 7em;
+	font-size: 10vw;
 	font-family: 'Staatliches', cursive;
 	position: absolute;
 	top: 50%;
@@ -109,7 +114,7 @@ hr{
 }
 
 .fotoSection img{
-	border-radius: 2em;
+	border-radius: 1em;
 	border: 1px #99aab5 solid;
 	box-shadow: 0px 0px 8px rgba(255,255,255,0.5);
 }
@@ -117,7 +122,8 @@ hr{
 .textoSection{
 	width: 60%;
 	padding-top: 2vh;
-	font-size: 1.2vw;
+	font-size: calc(.4em + .7vw);
+	overflow: hidden;
 }
 
 .rotar{
