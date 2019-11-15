@@ -39,12 +39,12 @@ h1{
 	height: 6vh;
 	position: fixed;
 	top: 0;
-
+	z-index: 1;
+	border-bottom: solid 1px #99aab5;
 }
 
 .navTexto{
-	margin-left: 30vw;
-	width: 75%;
+	width: 90%;
 	position: relative;
 }
 
@@ -142,4 +142,28 @@ h1{
 
 .listaRev li{
 	cursor: pointer;
+}
+
+.divGraf{
+	padding-bottom: 10vh;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.divGraf h1{
+	width: 100%;
+}
+
+.series{
+	display: flex;
+}
+
+.series h2{
+	border-right: #fff 1px solid;
+	padding: 2em;
+}
+
+.series div{
+	padding: 2em;
 }

@@ -15,6 +15,14 @@ switch(document.title){
 	case 'Intel':
 		arrayVideos = new Array('aVLuKqfyVyw', 'oCSkyNHXIAE', 'F92byoMgptU', '3rOVfeujof4')
 		break
+
+	case 'Nvidia':
+		arrayVideos = new Array('Qeb3IhsZSCM', 'l8m-XznP2xw', 'b4Kfrc3kk_c', 'fIjEdsoOIWg')
+		break
+
+	case 'AMD':
+		arrayVideos = new Array('M3sNUFjV7p4', 'kh1DeO4yz2s', '7AbNeht4tAE', 'fmLEB8tqgFA')
+		break
 }
 
 function cambiarVideo(n){

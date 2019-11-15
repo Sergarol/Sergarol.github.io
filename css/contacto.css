@@ -4,14 +4,14 @@
 		height: 50px;
 	}to{
 		width: 300px;
-		height: 300px; 
+		height: 375px; 
 	}
 }
 
 @keyframes contraerMenu{
 	from{
 		width: 300px;
-		height: 300px;
+		height: 375px;
 	}to{
 		width: 50px;
 		height: 50px; 
