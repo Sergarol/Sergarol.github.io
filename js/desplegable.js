@@ -1,8 +1,11 @@
+//Elementos asignados a variables
 let des = document.getElementById('desplegable')
 let botonDes = document.getElementById('botonDes')
 
+//Listener de eventos
 botonDes.addEventListener('click', playAnim)
 
+//Funcion que cambia estilos y aplica animaciones al menu desplegable
 function playAnim(){
 	if(des.style.width == '300px'){
 		botonDes.style.animation = 'cambiarIconoR 1s linear'
@@ -26,6 +29,7 @@ function playAnim(){
 	
 }
 
+//Cambia las clases del icono fontawesome
 function cambiarIcono(){
 	if(botonDes.classList.contains("fa-grip-lines")){
 		botonDes.classList.replace("fa-grip-lines", "fa-times")

@@ -1,16 +1,19 @@
 let arrayVideos;
-let video = document.getElementById('video')
 
+//Elementos pasado a variable
+let video = document.getElementById('video')
 let l1 = document.getElementById('vid1'),
 l2 = document.getElementById('vid2'),
 l3 = document.getElementById('vid3'),
 l4 = document.getElementById('vid4')
 
+//Listeners de eventos
 l1.addEventListener('click', ()=>cambiarVideo(0))
 l2.addEventListener('click', ()=>cambiarVideo(1))
 l3.addEventListener('click', ()=>cambiarVideo(2))
 l4.addEventListener('click', ()=>cambiarVideo(3))
 
+//Asigna el array dependiendo de la pagina
 switch(document.title){
 	case 'Intel':
 		arrayVideos = new Array('aVLuKqfyVyw', 'oCSkyNHXIAE', 'F92byoMgptU', '3rOVfeujof4')
@@ -25,6 +28,7 @@ switch(document.title){
 		break
 }
 
+//Modifica el source del video
 function cambiarVideo(n){
 	video.src='https://www.youtube.com/embed/' + arrayVideos[n]
 }
